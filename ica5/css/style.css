@@ -39,3 +39,8 @@ h1 {
 }
 
 /* Your CSS below here */
+h1 {
+  background-image: url(".img/logo.png");
+  box-shadow: 4px 4px 4px black;
+  border-radius: 50%;
+}
