@@ -47,6 +47,5 @@ h1 {
 article {
   background: top/contain
   no-repeat
-  url(/img/top-image.png);
-  
+  url("/img/top-image.png");
 }
