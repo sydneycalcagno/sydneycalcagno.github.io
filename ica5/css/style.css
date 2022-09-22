@@ -36,14 +36,12 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
-}
-
-/* Your CSS below here */
-h1 {
   background-image: url(".img/logo.png");
   box-shadow: 4px 4px 4px black;
   border-radius: 50%;
 }
+
+/* Your CSS below here */
 
 article {
   background: top/contain
