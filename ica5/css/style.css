@@ -34,18 +34,26 @@ h1 {
   letter-spacing: 1px;
   text-align: center;
   padding: 44px 0;
-  color: rgb(79, 65, 156);
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 /* Your CSS below here */
-h1 {
-  text-shadow: 1px 1px 1px black;
-  /*background-image: url("/img/logo.png");*/
+
+imag{
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
   box-shadow: 4px 4px 4px black;
   border-radius: 50%;
 }
-article {
-  background: top/contain
-  no-repeat
-  url("/img/top-image.png");
+top{
+  position: absolute;
+  top: 0mm;
+}
+bottom{
+  position: relative;
+  bottom: 0mm;
 }
