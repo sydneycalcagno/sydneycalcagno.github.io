@@ -25,7 +25,9 @@ p{
     font-size: 12px;
 }
 
-li:before {
+ul {list-style: none}
+
+ul li::before  {
     content: "http://linkexample.com";
     padding-right: 5px;
     
@@ -43,6 +45,8 @@ li:nth-child(3):before {
     color: #b8a9c9;
 }
 
+li { color: #622569; }
+
 a:link{
     color:#622569;
 }
@@ -54,3 +58,70 @@ a:hover {
     color: #b8a9c9;
 }
 
+img{
+  position: relative;
+  top: -28.125em;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 10%;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #b8a9c9;
+    
+}
+
+.button1 {
+    position: relative;
+    top: -46em;  
+    display: block;
+    margin-left: auto;
+    margin-right: 50em;
+    background-color:#622569;
+    border-radius: 8px;
+    border: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button2 {
+    position: relative;
+    top: -46em;  
+    display: block;
+    margin-left: auto;
+    margin-right: 50em;
+    background-color: #b8a9c9;
+    border-radius: 8px;
+    border: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button3 {
+    position: relative;
+    top: -46em;  
+    display: block;
+    margin-left: auto;
+    margin-right: 50em;
+    background-color: #5b9aa0;
+    border-radius: 8px;
+    border: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
