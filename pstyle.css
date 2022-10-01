@@ -163,3 +163,15 @@ nav {
     grid-template-columns: 1fr 1fr;
     gap: 1px;
   }
+
+@media screen and (max-width: 400px) {
+
+}
+@media screen and (min-width: 1900px) {
+    body{
+        font-size: .6875em;
+    }
+    img{
+        top: -20em;
+    }
+}
