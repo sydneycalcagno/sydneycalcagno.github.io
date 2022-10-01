@@ -164,7 +164,57 @@ nav {
     gap: 1px;
   }
 
-@media screen and (max-width: 400px) {
+  @media screen and (max-width: 400px) {
+    body {
+      font-size: 12px;
+      float: bottom;
+    }
+    body img{
+    float: right;
+    max-height:100%;
+    height: 25em;
+    margin-right: 1em;
+    padding: 1.5em;
+    }
+    nav{
+        background-color:#5c09af;;
+        padding: 5px;
+        font-size: 10px;
+        height: 5px;
+        font-size: 6px;
+        position:relative;
+        bottom:0;
+    }
+    nav ul{
+        margin:10em;
+        padding:0;
+        list-style:none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav a{
+        color:#fff;
+        text-decoration: none;
+        padding:.5em 1em;
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    article {
+      font-size: 12px;
+    }
+    body img{
+        float: left;
+        max-height:100%;
+        height: 18em;
+        margin-right: 3em;
+    } 
+    body{
+        border: 0.1em solid rgb(116, 116, 116);
+        border-radius: .1em;
+    }
+  }
+
+/* @media screen and (max-width: 400px) {
 
 }
 @media screen and (min-width: 1900px) {
@@ -175,4 +225,4 @@ nav {
     img{
         top: -20em;
     }
-}
+} */
