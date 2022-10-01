@@ -170,6 +170,7 @@ nav {
 @media screen and (min-width: 1900px) {
     body{
         font-size: .6875em;
+        background-color: aqua;
     }
     img{
         top: -20em;
