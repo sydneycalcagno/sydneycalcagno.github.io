@@ -179,19 +179,18 @@ nav {
         color: aqua;
         float: right;
         margin-top: 8em;
-        margin-right: -9.5em;
+        margin-right: -9em;
         font-size: 20px;
     }
     body{
         background-color: #622569;
-        
     }
     body p{
         color: aqua;
-        position: relative;
+       
         margin-top: 1em;
-        margin-right: -9.5em;
-        margin-left: 22em;
+        margin-right: -11em;
+        margin-left: 30em;
         float: right;
         font-size: 12px;
     }
@@ -200,7 +199,30 @@ nav {
         height: 8em;
         padding: 1em; 
         float: right;
-        margin-right: -8em;
+        margin-right: -7em;
+    }
+    nav {
+        background-color: white;
+        padding: .1em;
+        
+        margin-right: -6.5em;
+        margin-left: 22em;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: .1em .1em;
+    }
+    hr{
+        display: none;
     }
 }
 @media screen and (min-width: 1900px) {
