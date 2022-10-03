@@ -224,15 +224,26 @@ nav {
     hr{
         display: none;
     }
+    .grid {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 980px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 20px; 
+    }
 }
 @media screen and (min-width: 1900px) {
-   
+    .grid {
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 980px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 20px; 
+    }
     body{
-        font-size: .6875em;
-        background-color: aqua;
-        margin-left: 10em;
+        background-color:  #5b9aa0;;
     }
-    h1{
-        top:-46em; 
-    }
+   
 }
