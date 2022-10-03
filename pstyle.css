@@ -178,7 +178,9 @@ nav {
     h1{
         color: aqua;
         float: right;
-        position: relative;
+        margin-top: 8em;
+        margin-right: -9.5em;
+        font-size: 20px;
     }
     body{
         background-color: #622569;
@@ -196,6 +198,7 @@ nav {
         height: 8em;
         padding: 1em; 
         float: right;
+        margin-right: -8em;
     }
 }
 @media screen and (min-width: 1900px) {
