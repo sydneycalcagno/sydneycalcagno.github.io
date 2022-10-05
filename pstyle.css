@@ -67,6 +67,9 @@ a:hover {
     text-decoration: none;
     color: #b8a9c9;
 }
+h1:not(a:hover){
+    color:#622569;
+}
 .grid {
     margin: 0 auto;
     padding: 0 20px;
