@@ -21,7 +21,7 @@ h2{
 } 
 body {
     padding: 5em;
-    float: right;
+ 
 }
 body p{
     margin-right: 15em;
@@ -67,9 +67,7 @@ a:hover {
     text-decoration: none;
     color: #b8a9c9;
 }
-h1:not(a:hover){
-    color:#622569;
-}
+
 .grid {
     margin: 0 auto;
     padding: 0 20px;
@@ -175,7 +173,7 @@ nav {
 }
 
 
-
+/* 
 @media screen and (max-width: 400px) {
     h1{
         color: aqua;
@@ -248,4 +246,4 @@ nav {
         background-color:  #5b9aa0;;
     }
    
-}
+} */
