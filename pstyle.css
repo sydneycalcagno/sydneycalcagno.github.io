@@ -178,22 +178,27 @@ ul li { padding: 5px 0px; }
 table {
     width: 40%;
     border: 1px solid;
-    
+    margin-top: 9em;
 }
 th {
     border: 1px solid;
     padding: 20px;
     text-align:center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:#622569;
-   
 }
 td {
     text-align: right;
     text-align:left;
+    font-family: monospace;
+    font-size: 12px;
 }
 td, th{
    padding:.5em;
+   color:#622569;
+}
+
+#skillsH{
+   margin-right: 20em;
 }
 
 
