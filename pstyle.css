@@ -25,6 +25,7 @@ body {
 }
 body p{
     margin-right: 15em;
+   
 }
 
 p{
@@ -39,8 +40,7 @@ p{
 ul {list-style: none}
 
 ul li::before  {
-    padding-right: 5px;
-    
+    padding-right: 5px; 
 }
 
 li:nth-child(1):before {
@@ -151,7 +151,7 @@ nav {
     position: sticky;
     top: 0; 
   }
-  
+
   nav ul {
     margin: 0;
     padding: 0;
@@ -159,8 +159,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
   }
-
-  
   nav a {
     color: #fff;
     text-decoration: none;
@@ -174,7 +172,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
-  }
+}
 
 
 
