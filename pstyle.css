@@ -200,7 +200,10 @@ td, th{
 #skillsH{
    margin-right: 20em;
 }
-
+#tk{
+    border-collapse: collapse;
+   
+}
 
 @media screen and (max-width: 400px) {
     h1{
