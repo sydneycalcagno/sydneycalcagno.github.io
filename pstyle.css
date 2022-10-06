@@ -69,6 +69,22 @@ a:hover {
     color: #b8a9c9;
 }
 
+.grid-container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+  
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .grid {
     margin: 0 auto;
     padding: 0 20px;
@@ -76,7 +92,7 @@ a:hover {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px; 
-  }
+}
   
 
 img{
