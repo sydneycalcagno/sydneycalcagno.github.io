@@ -34,8 +34,8 @@ p{
     color:#622569;
     font-size: 12px;
 }
-#MeHeader{
-    padding-left: 100px;
+#myHeader{
+   margin-left: 22em;
 }
 
 ul {list-style: none}
