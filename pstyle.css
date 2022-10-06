@@ -174,9 +174,26 @@ nav {
 }
 ul li { padding: 5px 0px; }
 
+
 table {
-    width: 100%;
+    width: 40%;
     border: 1px solid;
+    
+}
+th {
+    border: 1px solid;
+    padding: 20px;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#622569;
+   
+}
+td {
+    text-align: right;
+    text-align:left;
+}
+td, th{
+   padding:.5em;
 }
 
 
