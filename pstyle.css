@@ -292,14 +292,15 @@ td, th{
         gap: 20px; 
     }
     body{
-        background-color:  #5b9aa0;
+        background-color: #b8a9c9;
         text-align: center;
     }
     h1{
         text-align: center;
         position:relative; left:-5em; top:0em;
     }
-    nav{
-        color:#622569; 
+    a:visited {
+        color: #622569;
     }
+
 }
