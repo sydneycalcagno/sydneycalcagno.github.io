@@ -74,12 +74,14 @@ a:hover {
     display: grid;
     grid-template-columns: auto auto;
     padding: 5px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20em;
 }
   
 .grid-item {
-    
     font-size: 12px;
-
     display: flex;
     align-items: center;
     justify-content: center;
