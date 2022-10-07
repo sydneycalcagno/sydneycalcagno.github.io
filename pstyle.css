@@ -163,7 +163,6 @@ hr {
 }
 
 nav {
-    background-color: white;
     padding: .5em;
     position: sticky;
     top: 0; 
@@ -177,7 +176,7 @@ nav {
     justify-content: space-evenly;
   }
   nav a {
-    color: #fff;
+   
     text-decoration: none;
     padding: .5em 1em;
   }
@@ -248,27 +247,29 @@ td, th{
         height: 8em;
         padding: 1em; 
         float: right;
-        margin-right: -7em;
+        margin-right: -20em;
+        margin-left: -10em;
     }
     nav {
-        background-color: white;
-        padding: .1em;
         
-        margin-right: -6.5em;
-        margin-left: 22em;
+        width: 100%;
+        margin-right: 0em;
+        margin-left: 0em;
     }
     nav ul {
+        
         margin: 0;
         padding: 0;
+        width: 100%;
         list-style: none;
-        
         display: flex;
         justify-content: space-evenly;
     }
     nav a {
-        color: #fff;
+        
+        width: 100%;
         text-decoration: none;
-        padding: .1em .1em;
+        padding: 5em 5em;
     }
     hr{
         display: none;
@@ -292,7 +293,14 @@ td, th{
         gap: 20px; 
     }
     body{
-        background-color:  #5b9aa0;;
+        background-color:  #5b9aa0;
+        text-align: center;
     }
-   
+    h1{
+        text-align: center;
+        position:relative; left:-5em; top:0em;
+    }
+    nav{
+        color:#622569; 
+    }
 }
