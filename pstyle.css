@@ -302,5 +302,13 @@ td, th{
     a:visited {
         color: #622569;
     }
+    #tk{
+        width: 850px; 
+        margin-right: auto; 
+        margin-left: auto; 
+    }
+    #skill{
+        position:relative; left:-23em; top:0em;
+    }
 
 }
