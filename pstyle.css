@@ -271,6 +271,13 @@ td, th{
     #myHeader{
         margin-left: 8em;
     }
+    #proj{
+        margin-left: 8em;
+        color:#622569;
+    }
+    .grid-container{
+        margin-left: 8em;
+    }
     .grid {
         margin: 0 auto;
         padding: 0 20px;
