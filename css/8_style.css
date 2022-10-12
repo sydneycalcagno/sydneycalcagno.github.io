@@ -1,6 +1,9 @@
-p{
-    color:aqua;
-}
 body{
-    background-color:blueviolet;
+    background: blueviolet;
+}
+button{
+    background: aqua;
+    height: 3em;
+    top:50%;
+  
 }
