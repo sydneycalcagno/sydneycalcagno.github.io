@@ -12,8 +12,8 @@ const overlay = document.querySelector('.overlay');
 // imgArray.push('pic4.jpg');
 // imgArray.push('pic5.jpg');
 
-const imgArray = ['pic1.png', 'pic2.jpeg', 'pic3.webp', 'pic4.webp', 'pic5.jpeg'];
-const alternatives = {'pic1.png':'eyeball', 'pic2.jpeg':'rock','pic3.webp':'flower','pic4.webp':'history','pic5.jpeg':'butterfly'}
+const imgArray = ['pic1.jpeg', 'pic2.jpeg', 'pic3.webp', 'pic4.webp', 'pic5.jpeg'];
+const alternatives = {'pic1.jpeg':'eyeball', 'pic2.jpeg':'rock','pic3.webp':'flower','pic4.webp':'history','pic5.jpeg':'butterfly'}
 /* Declaring the alternative text for each image file */
 
 /* Looping through images */
