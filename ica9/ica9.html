@@ -17,7 +17,7 @@
       .msgBox p {
         line-height: 1.5;
         padding: 10px 20px;
-        color: #333;
+        color: rgb(255, 255, 255);
         padding-left: 82px;
         background-position: 25px center;
         background-repeat: no-repeat;
@@ -63,10 +63,10 @@
         closeBtn.addEventListener('click', () => panel.parentNode.removeChild(panel));
 
         if (msgType === 'warning') {
-          msg.style.backgroundImage = 'url(icons/warning.png)';
+          msg.style.backgroundImage = 'url(warning.png)';
           panel.style.backgroundColor = 'red';
         } else if (msgType === 'chat') {
-          msg.style.backgroundImage = 'url(icons/chat.png)';
+          msg.style.backgroundImage = 'url(chat.png)';
           panel.style.backgroundColor = 'aqua';
         } else {
           msg.style.paddingLeft = '20px';
@@ -80,4 +80,3 @@
     </script>
   </body>
 </html>
-//
