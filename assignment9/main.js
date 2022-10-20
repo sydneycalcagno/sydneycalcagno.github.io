@@ -19,7 +19,7 @@ const alternatives = {'pic1.jpg':'eyeball', 'pic2.jpg':'rock','pic3.jpg':'flower
 /* Looping through images */
 for(const i of imgArray){
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', '/img/${i}');
+    newImage.setAttribute('src', `img/${i}`);
     newImage.setAttribute('alt', alternatives[i]);
     thumbBar.appendChild(newImage);
     thumbBar.addEventListener('click', dis => { displayedImage.src = dis.target.src; displayedImage.alt = dis.target.alt;});
@@ -29,12 +29,12 @@ for(const i of imgArray){
 /* Wiring up the Darken/Lighten button */
 btn.addEventListener('click', () => {const bClass = btn.getAttribute('class');
     if(bClass === 'dark'){
-        btn.setAttribute("bClass", "light");
+        btn.setAttribute('bClass', 'light');
         btn.textContent = 'Lighten';
         overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
     }
     else{
-        btn.setAttribute("bClass", "dark");
+        btn.setAttribute('bClass', 'dark');
         btn.textContent = 'Darken';
         overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
