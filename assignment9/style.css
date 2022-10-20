@@ -71,7 +71,12 @@ a:hover {
 
 
 
-
+.displayed-img{
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
 
 .full-img {
   position: relative;
