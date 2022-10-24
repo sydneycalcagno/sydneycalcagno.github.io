@@ -43,61 +43,25 @@
       let male = 0;
 
       // Add your code here
-        const catString = [
-        {
-            "name" : "Lindy",
-            "breed" : "Cymric",
-            "color" : "white",
-            "kittens" : [
-            {
-                "name" : "Percy",
-                "gender" : "m"
-            },
-            {
-                "name" : "Thea",
-                "gender" : "f"
-            },
-            {
-                "name" : "Annis",
-                "gender" : "f"
-            }
-            ]
-        },
-        {
-            "name" : "Mina",
-            "breed" : "Aphrodite Giant",
-            "color" : "ginger",
-            "kittens" : [
-            {
-                "name" : "Doris",
-                "gender" : "f"
-            },
-            {
-                "name" : "Pickle",
-                "gender" : "f"
-            },
-            {
-                "name" : "Max",
-                "gender" : "m"
-            }
-            ]
-        },
-        {
-            "name" : "Antonia",
-            "breed" : "Ocicat",
-            "color" : "leopard spotted",
-            "kittens" : [
-            {
-                "name" : "Bridget",
-                "gender" : "f"
-            },
-            {
-                "name" : "Randolph",
-                "gender" : "m"
-            }
-            ]
+      const c = JSON.parse(catString);
+      //const k; 
+
+
+      for (let i = 0; i < cats.length; i++){
+
+        for(const k of c[i].kittens){ //counting number of kittens in array
+          total++
+
+          if(kitten.gender === 'm'){ // if the cat is a 'm' aka male, add one to male variable
+            male++;
+          }
+
         }
-        ]
+
+      }
+
+
+
       // Don't edit the code below here!
 
       para1.textContent = motherInfo;
@@ -109,3 +73,60 @@
   </script>
 
 </html>
+
+
+  <!-- const catString = [
+{
+    "name" : "Lindy",
+    "breed" : "Cymric",
+    "color" : "white",
+    "kittens" : [
+    {
+        "name" : "Percy",
+        "gender" : "m"
+    },
+    {
+        "name" : "Thea",
+        "gender" : "f"
+    },
+    {
+        "name" : "Annis",
+        "gender" : "f"
+    }
+    ]
+},
+{
+    "name" : "Mina",
+    "breed" : "Aphrodite Giant",
+    "color" : "ginger",
+    "kittens" : [
+    {
+        "name" : "Doris",
+        "gender" : "f"
+    },
+    {
+        "name" : "Pickle",
+        "gender" : "f"
+    },
+    {
+        "name" : "Max",
+        "gender" : "m"
+    }
+    ]
+},
+{
+    "name" : "Antonia",
+    "breed" : "Ocicat",
+    "color" : "leopard spotted",
+    "kittens" : [
+    {
+        "name" : "Bridget",
+        "gender" : "f"
+    },
+    {
+        "name" : "Randolph",
+        "gender" : "m"
+    }
+    ]
+}
+] -->
