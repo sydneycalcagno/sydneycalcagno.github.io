@@ -43,7 +43,7 @@
       let male = 0;
 
       // Add your code here
-      const c = JSON.parse(catString);
+      const c = JSON.parse(catString); //links the json file to the html
       //const k; 
 
 
@@ -58,10 +58,17 @@
 
         }
 
+        if(i < c.length - 1){ //start at 0 and go to the end (that's why it's -1 we want the array to start at index 0)
+          motherInfo += `${c[i].name},`; //adds on the name of the cat to the mother info
+        }
+        else{ // goes back and forth so it goes namex, and namey. namez, and namew. 
+          motherInfo += ` and ${c[i].name}. `;
+        }
+
       }
 
 
-
+      kittenInfo = `There is ${male} boy kittens and ${total - male} girl kittens`;
       // Don't edit the code below here!
 
       para1.textContent = motherInfo;
