@@ -22,6 +22,9 @@ let Bill = {
     "salary" : 21200,
     "raise" : "false"
 }
+console.log("#1", Sam, Mary, Bill);
+console.log("------------------------");
+
 // #3
 let Anna = {
     "name" : "Anna",
@@ -30,12 +33,18 @@ let Anna = {
     "salary" : 25600,
     "raise" : "false"
 }
+console.log("#3", Anna);
+console.log("------------------------");
+
 // #2
 let Company = {
     "companyName" : "Tech Stars",
     "website" : " www.techstars.site",
     "employees" : [Sam, Mary, Bill, Anna]
 }
+console.log("#2", Company);
+console.log("------------------------");
+
 
 
 let total = 0; 
@@ -66,7 +75,13 @@ for(let i = 0; i < Company.employees.length; i++){
 }
 
 console.log("#4", total);
+console.log("------------------------");
 console.log("#5", raise_total);
+console.log("------------------------");
+console.log("#6", Sam, Mary, Bill, Anna);
+console.log("------------------------");
+console.log("ALL OF EVERYONES INFO");
+console.log("------------------------");
 console.log("Sam's Info", Sam);
 console.log("Mary's Info", Mary);
 console.log("Bill's Info", Bill);
