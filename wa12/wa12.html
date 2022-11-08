@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="wa11.css">
-    <script defer src="wa11.js"></script>
+    <link rel="stylesheet" href="wa12.css">
+    <script defer src="wa12.js"></script>
 </head>
 <body>
     <div>
-        <p class="output"></p>
+        <p>Please enter your phone number</p>
+        <p class="output">0000000000</p>
     </div>
     <form>
-        <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number">
-        <input class="button" type="button" name="submit-button" value="Submit">
+        <!-- <input class="phone" type="text" id="phone" name="phone" placeholder="Enter a phone number"> -->
+        <input class="minusbutton" type="button" name="minus-button" value="-">
+        <input class="addbutton" type="button" name="add-button" value="+">
+        <input class="submitbutton" type="button" name="submit-button" value="Submit">
+        <input class="resetbutton" type="button" name="reset-button" value="Reset">
+        <input class="randombutton" type="button" name="random-button" value="Random">
 
-        
+        <div class="slidecontainer">
+            <p>Use slider to enter your phone number</p>
+            <input type="range" min="0" max="9999999999" value="8888888888" class="slider" id="myRange">
+        </div>
     </form>
 </body>
 </html>
