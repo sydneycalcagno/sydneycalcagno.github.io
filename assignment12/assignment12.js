@@ -41,8 +41,8 @@ function real(){
   let num10 = Math.floor(Math.random() * 10);
 
   let fthree = [num1, num2, num3];
-  let mid = [num4, num5, num6, num7];
-  let end = [num8, num9, num10];
+  let mid = [num4, num5, num6];
+  let end = [num7, num8, num9, num10];
 
   let divd = "-";
 
