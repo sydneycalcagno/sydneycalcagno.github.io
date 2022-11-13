@@ -40,8 +40,14 @@ function real(){
   let num9 = Math.floor(Math.random() * 10);
   let num10 = Math.floor(Math.random() * 10);
 
+  let fthree = [num1, num2, num3];
+  let mid = [num4, num5, num6, num7];
+  let end = [num8, num9, num10];
+
+  let divd = "-";
+
   let anum = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10];
-  header.innerText = phrase + anum.join('');
+  header.innerText = phrase + fthree.join('') + divd + mid.join('') + divd + end.join('');
 }
 
 
