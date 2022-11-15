@@ -29,7 +29,7 @@ body{
 }
 
 .grid-item:hover{
-   color:white;
+   color:black;
 }
 @media screen and (max-width: 600px) {
     .app {
