@@ -1,11 +1,20 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
 
+document.getElementById("game").style.display = "none";
+document.getElementById("btnn").style.display = "inline";
 
 var points = 0; 
-let gameOver = 0;
 
 
+const bn = document.getElementById('btnn');
+bn.addEventListener('click', function click(event){
+    
+
+    document.getElementById("game").style.display = "inline";
+    document.getElementById("btnn").style.display = "none";
+
+});
 
 // character = {x: 5, y: 5, width: 50, height: 50};
 // block = {x: 5, y: 5, width: 50, height: 50};
@@ -42,7 +51,7 @@ document.body.onkeyup = function(e){
 
 var dead = setInterval(function(){
    
-    
+    let gameOver = 0;
     var ctop = parseInt(window.getComputedStyle(character).getPropertyValue("top")); 
     var bleft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
     var bright = parseInt(window.getComputedStyle(block).getPropertyValue("right"));
@@ -50,11 +59,10 @@ var dead = setInterval(function(){
     if(bleft < 20 && bleft > 0 && ctop >= 130){
         gameOver = 1; 
         alert("you lose");
+        document.getElementById("game").style.display = "none";
     }
-    // if(bright == 20){
-    //     points++;
-    //     alert("YES");
-    // }
+    
+   
 
     
  
