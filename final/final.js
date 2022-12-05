@@ -31,7 +31,18 @@ document.body.onkeyup = function(e){
         setTimeout(function(){
             character.classList.remove("animate");
         }, 500);
+
+
     }
+    let gameOver = 0;
+    var ctop = parseInt(window.getComputedStyle(character).getPropertyValue("top")); 
+    var bleft = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
+    var bright = parseInt(window.getComputedStyle(block).getPropertyValue("right"));
+   
+    if(!(bleft < 20 && bleft > 0 && ctop >= 130) && bleft == 240){
+        points ++; 
+    }
+
 } 
 
 // if (character.x < block.x + block.width && character.x + character.width > block.x && character.y < block.y + block.height && character.y + character.height > block.y){
@@ -60,7 +71,8 @@ var dead = setInterval(function(){
    
     if(bleft < 20 && bleft > 0 && ctop >= 130){
         gameOver = 1; 
-        alert("you lose");
+        alert(points);
+        points = 0; 
         document.getElementById("game").style.display = "none";
         document.getElementById("btnn").style.display = "inline";
     }
