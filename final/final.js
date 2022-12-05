@@ -2,7 +2,7 @@ var character = document.getElementById("character");
 var block = document.getElementById("block");
 var buttonn = document.getElementById("btnn");
 
-window.addEventListener('load', buttonn);
+
 document.getElementById("game").style.display = "none";
 
 
@@ -62,6 +62,7 @@ var dead = setInterval(function(){
         gameOver = 1; 
         alert("you lose");
         document.getElementById("game").style.display = "none";
+        document.getElementById("btnn").style.display = "inline";
     }
     
    
