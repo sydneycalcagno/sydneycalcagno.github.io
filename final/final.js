@@ -1,8 +1,10 @@
 var character = document.getElementById("character");
 var block = document.getElementById("block");
+var buttonn = document.getElementById("btnn");
 
+window.addEventListener('load', buttonn);
 document.getElementById("game").style.display = "none";
-document.getElementById("btnn").style.display = "inline";
+
 
 var points = 0; 
 
