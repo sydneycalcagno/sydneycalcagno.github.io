@@ -8,15 +8,20 @@ let lev = document.querySelector('.lvl');
 var pAgain = document.getElementById("pa");
 var hme = document.getElementById("hm");
 var sl = document.getElementById("con");
-
+var stp = document.getElementById("statsP");
+var stl = document.getElementById("statsL");
 
 let phrase1 = "Points: ";
 let phrase2 = "Bert's Anger Level: ";
-let phrase3 = "Begin Level "
+let phrase3 = "Begin Level ";
+let phrase4 = "Your Score: ";
+let phrase5 = "Level: ";
+
 
 let bool = 0; 
 
-
+stl.style.display="none";
+stp.style.display="none";
 
 document.getElementById("game").style.display = "none";
 document.getElementById("pa").style.display = "none";
@@ -41,6 +46,8 @@ bn.addEventListener('click', function click(event){
     document.getElementById("pa").style.display = "none";
     document.getElementById("hm").style.display = "none";
     document.getElementById("con").style.display = "none";
+    stl.style.display="none";
+    stp.style.display="none";
    
     header.style.display ="block";
     lev.style.display ="block";
@@ -59,6 +66,8 @@ sl.addEventListener('click', function click(event){
     document.getElementById("pa").style.display = "none";
     document.getElementById("hm").style.display = "none";
     document.getElementById("con").style.display = "none";
+    stl.style.display="none";
+    stp.style.display="none";
    
     header.style.display ="block";
     lev.style.display ="block";
@@ -76,6 +85,8 @@ pAgain.addEventListener('click', function click(event){
     document.getElementById("btnn").style.display = "none";
     document.getElementById("pa").style.display = "none";
     document.getElementById("hm").style.display = "none";
+    stl.style.display="none";
+    stp.style.display="none";
     header.style.display ="block";
     lev.style.display ="block";
     header.innerText = phrase1 + points;
@@ -88,6 +99,8 @@ hm.addEventListener('click', function click(event){
     document.getElementById("two").style.display = "block";
     document.getElementById("pa").style.display = "none";
     document.getElementById("hm").style.display = "none";
+    stl.style.display="none";
+    stp.style.display="none";
 });
 
 document.body.onkeyup = function(e){
@@ -241,6 +254,10 @@ var dead = setInterval(function(){
         bool = 0;
         document.getElementById("pa").style.display = "block";
         document.getElementById("hm").style.display = "block";
+        stp.innerText = phrase4 + points;
+        stl.innerText = phrase5 + level;
+        stl.style.display="block";
+        stp.style.display="block";
 
         level = 1; 
         points = 0; 
@@ -248,6 +265,9 @@ var dead = setInterval(function(){
         
         header.style.display ="none";
         lev.style.display ="none";
+
+       
+
         
     }
     
