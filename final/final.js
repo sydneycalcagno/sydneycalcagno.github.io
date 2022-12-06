@@ -193,7 +193,7 @@ document.body.onkeyup = function(e){
         document.getElementById("game").style.display = "none";
         sl.style.display = "block";
         sl.innerText = phrase3 + level;
-        bool = 3; 
+        bool = 4; 
     }
     else if(level == 6 && bool == 4){
         block.style.animationDuration = "2.5s";
@@ -201,7 +201,7 @@ document.body.onkeyup = function(e){
         document.getElementById("game").style.display = "none";
         sl.style.display = "block";
         sl.innerText = phrase3 + level;
-        bool = 4; 
+        bool = 5; 
     }
     else if(level == 7 && bool == 5){
         block.style.animationDuration = "2s";
@@ -209,7 +209,7 @@ document.body.onkeyup = function(e){
         document.getElementById("game").style.display = "none";
         sl.style.display = "block";
         sl.innerText = phrase3 + level;
-        bool = 5; 
+        bool = 6; 
     }
     else if(level == 8 && bool == 6){
         block.style.animationDuration = "1.5s";
@@ -217,7 +217,7 @@ document.body.onkeyup = function(e){
         document.getElementById("game").style.display = "none";
         sl.style.display = "block";
         sl.innerText = phrase3 + level;
-        bool = 6; 
+        bool = 7; 
     }
     else if(level == 9 && bool == 7){
         block.style.animationDuration = "1s";
@@ -225,7 +225,7 @@ document.body.onkeyup = function(e){
         document.getElementById("game").style.display = "none";
         sl.style.display = "block";
         sl.innerText = phrase3 + level;
-        bool = 7; 
+        bool = 8; 
     }
     else if(level == 10 && bool == 8){
         block.style.animationDuration = ".5s";
@@ -233,7 +233,7 @@ document.body.onkeyup = function(e){
         document.getElementById("game").style.display = "none";
         sl.style.display = "block";
         sl.innerText = phrase3 + level;
-        bool = 8; 
+        bool = 9; 
     }
 
     header.innerText = phrase1 + points;
