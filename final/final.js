@@ -20,6 +20,8 @@ let phrase5 = "Level: ";
 
 let bool = 0; 
 
+header.style.display="none";
+lev.style.display="none";
 stl.style.display="none";
 stp.style.display="none";
 
@@ -31,14 +33,16 @@ document.getElementById("con").style.display = "none";
 
 var points = 0; 
 var level = 1;
+var start = 0; 
 
-
+stl.style.display="none";
+stp.style.display="none";
 
 
 const bn = document.getElementById('btnn');
 bn.addEventListener('click', function click(event){
     
-
+    start = 1; 
     document.getElementById("game").style.display = "inline";
     document.getElementById("one").style.display = "none";
     document.getElementById("two").style.display = "none";
@@ -78,7 +82,7 @@ sl.addEventListener('click', function click(event){
 
 pAgain.addEventListener('click', function click(event){
     
-
+    start = 1; 
     document.getElementById("game").style.display = "inline";
     document.getElementById("one").style.display = "none";
     document.getElementById("two").style.display = "none";
@@ -94,6 +98,7 @@ pAgain.addEventListener('click', function click(event){
 });
 
 hm.addEventListener('click', function click(event){
+    start = 1; 
     document.getElementById("btnn").style.display = "inline";
     document.getElementById("one").style.display = "block";
     document.getElementById("two").style.display = "block";
