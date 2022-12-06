@@ -116,7 +116,7 @@ var dead = setInterval(function(){
         document.getElementById("pa").style.display = "block";
         document.getElementById("hm").style.display = "block";
 
-
+        level = 1; 
         points = 0; 
         document.getElementById("game").style.display = "none";
         
