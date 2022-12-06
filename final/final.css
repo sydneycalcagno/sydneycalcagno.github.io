@@ -28,11 +28,16 @@
     position: relative;
     top: 130px;
     left: 240px;
-    animation: block  3s infinite;
+
+    animation-name: block;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     animation-direction: alternate; 
 
    
 } 
+
+
 
 .animate{
     animation: jump 500ms; 
