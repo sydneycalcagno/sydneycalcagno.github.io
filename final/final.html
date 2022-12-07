@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html onclick="hop()" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,43 +8,49 @@
     <link rel="stylesheet" href="final.css">
     <script defer src="final.js"></script>
 </head>
+<div id="everything">
+    <body style="margin: auto; text-align: center;">
 
-<body style="margin: auto; text-align: center;">
-
-    <h1 id="title">Bobby the Bouncing Block</h1>
-    <h1 id="statsP"></h1>
-    <h1 id="statsL"></h1>
-    <h2 class="pntt"></h2>
-    <h2 class="lvl"></h2>
-    <h3 style="margin: auto; text-align: center;" id="one">The purple block's name is Bobby. Bobby loves to jump. Bobby has a short, blue enemy named Bert. Bert hates it when Bobby jumps and plots to stop him from jumping.</h3>
-    <h3 style="margin: auto; text-align: center;" id="two">Press the spacebar to jump. The more jumps you get the more points you get, so spam the spacebar berfore Bert gets ya! Let's annoy Bert!</h3>
-
-
-
-    <button type="button" id="btnn">
-        Start
-    </button>
-
-    <center>
-        <button style="margin: 5px; text-align: center;" type="button" id="pa">
-            Play Again?
+        <h1 id="title">Bobby the Bouncing Block</h1>
+        <h1 id="statsP"></h1>
+        <h1 id="statsL"></h1>
+        <h1 id="win"></h1>
+    
+        <h2 class="pntt"></h2>
+        <h2 class="lvl"></h2>
+        
+    
+        <h3 style="margin: auto; text-align: center;" id="one">The purple block's name is Bobby. Bobby loves to jump. Bobby has a short, blue enemy named Bert. Bert hates it when Bobby jumps and plots to stop him from jumping.</h3>
+        <h3 style="margin: auto; text-align: center;" id="two">Press the spacebar to jump. The more jumps you get the more points you get, so spam the spacebar berfore Bert gets ya! Let's annoy Bert!</h3>
+    
+    
+    
+        <button type="button" id="btnn">
+            Start
         </button>
-    </center>
-    <center>
-        <button style="margin: 5px; text-align: center;" type="button" id="hm">
-            Home
+    
+        <center>
+            <button style="margin: 5px; text-align: center;" type="button" id="pa">
+                Play Again?
+            </button>
+        </center>
+        <center>
+            <button style="margin: 5px; text-align: center;" type="button" id="hm">
+                Home
+            </button>
+        </center> 
+        <button style="margin: auto; text-align: center;" type="button" id="con">
+    
         </button>
-    </center> 
-    <button style="margin: auto; text-align: center;" type="button" id="con">
+    
+    
+        <div id="game">
+            <div style="margin: auto; text-align: center;" id="character"></div>
+            <div style="margin: auto; text-align: center;" id="block"></div>
+        </div>
+    
+    </body>
+</div>
 
-    </button>
-
-
-    <div id="game">
-        <div style="margin: auto; text-align: center;" id="character"></div>
-        <div style="margin: auto; text-align: center;" id="block"></div>
-    </div>
-
-</body>
 
 </html>
