@@ -27,7 +27,7 @@
     background-color: aqua;
     position: relative;
     top: 130px;
-    left: 240px;
+    left: 165px;
 
     animation-name: block;
     animation-duration: 5s;
@@ -139,8 +139,8 @@ h3{
 }
 
 @keyframes block{
-    0%{left:240px;}
-    100%{left:-240px;}
+    0%{left:165px;}
+    100%{left:-165px;}
 }
 @keyframes jump{
     0%{top: 150px;}
