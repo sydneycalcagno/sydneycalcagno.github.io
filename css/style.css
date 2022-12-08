@@ -96,9 +96,9 @@ nav {
 }
 
 #edd{
+    position: relative;
     width:100%;
-    margin: 20px;
-  
+    
 }
 
 #tk{
