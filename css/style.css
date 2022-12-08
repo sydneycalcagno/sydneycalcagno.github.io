@@ -58,7 +58,7 @@ h3{
 } 
 
 
-#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav{
+#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav, #bobby{
     list-style: none;
     display:block;
     position: relative;
@@ -82,6 +82,9 @@ nav {
     
 }
 
+#bobby{
+    text-align: left;
+}
 
 #proj{
   top: 0px;
