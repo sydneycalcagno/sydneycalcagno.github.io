@@ -1,11 +1,4 @@
 
-nav {
-    padding: .5em;
-    position: sticky, absolute;
-    top: 0px; 
-    background-color: white;
-    
-}
 
 nav ul {
     margin: 0;
@@ -65,7 +58,7 @@ h3{
 } 
 
 
-#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s{
+#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav{
     list-style: none;
     display:block;
     position: relative;
@@ -77,6 +70,18 @@ h3{
     width: 25%;
     height: 100%;
 }
+
+nav {
+    position: relative;
+    width:100%;
+    padding: .5em;
+    position: sticky, absolute;
+    top: 0px;
+    background-color: white;
+    
+    
+}
+
 
 #proj{
   top: 0px;
