@@ -58,7 +58,7 @@ h3{
 } 
 
 
-#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav, #bobby{
+#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav, #bobby, #rz, #rez{
     list-style: none;
     display:block;
     position: relative;
@@ -69,6 +69,13 @@ h3{
     text-align: center;
     width: 25%;
     height: 100%;
+}
+
+#rz{
+    position: relative;
+    top: 110px;
+    width:50%;
+    background-color: #000000;
 }
 
 nav {
