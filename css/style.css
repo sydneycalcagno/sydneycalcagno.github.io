@@ -332,6 +332,8 @@ ul li {
         width: 100%;
     }
     h1{
+        position: relative;
+        font-size:larger;
         text-align: center;
     }
     #h{
@@ -368,9 +370,7 @@ ul li {
         width: 100%;
         text-align: center;
     }
-    .grid-item{
-        display: flex;
-    }
+   
    
     nav ul {
         margin: 0;
