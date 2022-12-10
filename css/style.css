@@ -71,6 +71,12 @@ h3{
     height: 100%;
 }
 
+#whole{
+    position: relative;
+    top:80px;
+}
+
+
 #rz{
     position: relative;
     top: 110px;
@@ -93,9 +99,6 @@ nav {
     text-align: left;
 }
 
-#proj{
-  top: 0px;
-}
 
 
 #tS{
@@ -277,7 +280,35 @@ ul li {
     padding: 5px 0px; 
 }
 
+@media screen and (min-width: 1900px) {
+    body {
+        background-color:#5b9aa0;
+    }
+    #intro{
+        position: relative;
+        width: 65%;
+    }
+    nav a{
+        font-family:'Courier New', Courier, monospace;
+    }
+   
+}
 
-/* #skillsH{
-   margin-right: 20em;
-} */
+
+@media screen and (max-width: 400px ) {
+    body {
+        background-color:#b8a9c9;
+    }
+    nav a{
+        font-family: cursive;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: inline;
+        justify-content: space-evenly;
+        position: sticky;
+        background-color: white;
+    }
+}
