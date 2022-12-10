@@ -302,6 +302,76 @@ ul li {
     nav a{
         font-family: cursive;
     }
+    
+    #myHeader{
+        position: relative;
+        width: 100%;
+    }
+    #syd{
+        position: relative;
+        width: 100%;
+    }
+    #intro{
+        position: relative;
+        width: 100%;
+    }
+    #intro2{
+        position: relative;
+        width: 100%;
+    }
+    #cu{
+        position: relative;
+        width: 100%;
+    }
+    #brain{
+        position: relative;
+        width: 100%;
+    }
+    #skill{
+        position: relative;
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+    }
+    #h{
+        position: relative;
+        width: 100%;
+        text-align: left; 
+    }
+    #s{
+        position: relative;
+        width: 100%;
+        text-align: left; 
+    }
+    #bobby{
+        position: relative;
+        width: 100%;
+    }
+    h2{
+        position: relative;
+        font-size:medium;
+        text-align: center; 
+    }
+    #rez{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    #rz{
+        position: relative;
+        width: 80%;
+        text-align: center;
+    }
+    #proj{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    .grid-item{
+        display: flex;
+    }
+   
     nav ul {
         margin: 0;
         padding: 0;
