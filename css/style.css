@@ -157,7 +157,19 @@ li:nth-child(3):before {
     color: #b8a9c9;
 }
 
-li { color: #622569; }
+li { color: #622569;
+    
+}
+ol li{
+    text-align: left;
+    padding-right: 200px;
+    position: relative;
+    left: 0%;
+    font-size: 100%;
+    width: 100%;
+   
+    
+}
 
 a:link{
     color:#622569;
