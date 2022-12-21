@@ -105,6 +105,7 @@ pAgain.addEventListener('click', function click(event){
     header.innerText = phrase1 + points;
     lev.innerText = phrase2 + level;
     level = 1; 
+    block.style.animationDuration = "5s";
     points = 0; 
 });
 
