@@ -58,7 +58,7 @@ h3{
 } 
 
 
-#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav, #bobby, #rz, #rez{
+#syd, #intro, #myHeader, #proj, #intro2, #cu, #ed, #tk, #edd, #brain, #skill, #tS, #h, #s, nav, #bobby, #rz, #rez, #edd{
     list-style: none;
     display:block;
     position: relative;
@@ -106,8 +106,6 @@ nav {
 }
 
 #edd{
-    position: relative;
-    width:100%;
     
 }
 
